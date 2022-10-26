@@ -17,7 +17,6 @@ show variables like 'autocommit';
 SET autocommit=ON;
 SET autocommit=OFF;
 ```
-3. todo
 ### 隔离级别
 1. 查询事务隔离级别：
 ```sql
