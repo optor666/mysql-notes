@@ -35,3 +35,5 @@ SET @@transaction_isolation = 'READ-COMMITTED'; # set the next-transaction isola
 # Global Scope
 SET GLOBAL transaction_isolation = 'READ-COMMITTED';
 ```
+# 工具
+1. InnoDB 数据结构可视化：https://github.com/jeremycole/innodb_diagrams
