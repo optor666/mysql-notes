@@ -9,3 +9,4 @@
 9. 非主键索引的叶子节点内容是主键的值。在 InnoDB 中，非主键索引也被称为二级索引（secondary index）；需要多扫描一颗索引树。
 10. general_log 
 11. 锁：全局锁（主要用于逻辑备份）、表锁、行锁、元数据锁
+12. MySQL MRR 优化：https://zhuanlan.zhihu.com/p/110154066
