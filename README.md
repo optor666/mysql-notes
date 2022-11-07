@@ -2,6 +2,15 @@
 1. MySQL Document: https://dev.mysql.com/doc/
 2. MySQL Reference Manual: https://dev.mysql.com/doc/refman/8.0/en/
 3. MySQL Tutorial: https://dev.mysql.com/doc/refman/8.0/en/tutorial.html
+
+# 文档导航
+- [Chapter 5 MySQL Server Administration](https://dev.mysql.com/doc/refman/8.0/en/server-administration.html)
+  - [5.1 The MySQL Server](https://dev.mysql.com/doc/refman/8.0/en/mysqld-server.html)
+    - [5.1.8 Server System Variables](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html)
+  - [5.2 The MySQL Data Directory](https://dev.mysql.com/doc/refman/8.0/en/data-directory.html)
+- [Chapter 6 Security](https://dev.mysql.com/doc/refman/8.0/en/security.html)
+- [Chapter 15 The InnoDB Storage Engine](https://dev.mysql.com/doc/refman/8.0/en/innodb-storage-engine.html)
+  - [15.14 InnoDB Startup Options and System Variables](https://dev.mysql.com/doc/refman/8.0/en/innodb-parameters.html)
 # 事务
 ## 文档
 1. Transactional and Locking Statements: https://dev.mysql.com/doc/refman/8.0/en/sql-transactional-statements.html
