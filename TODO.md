@@ -10,3 +10,4 @@
 10. general_log 
 11. 锁：全局锁（主要用于逻辑备份）、表锁、行锁、元数据锁（MDL）
 12. MySQL MRR 优化：https://zhuanlan.zhihu.com/p/110154066
+13. 两阶段协议、死锁、死锁检测
