@@ -8,6 +8,8 @@
   - [5.1 The MySQL Server](https://dev.mysql.com/doc/refman/8.0/en/mysqld-server.html)
     - [5.1.8 Server System Variables](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html)
   - [5.2 The MySQL Data Directory](https://dev.mysql.com/doc/refman/8.0/en/data-directory.html)
+  - [5.4 MySQL Server Logs](https://dev.mysql.com/doc/refman/8.0/en/server-logs.html)
+    - [5.4.5 The Slow Query Log](https://dev.mysql.com/doc/refman/8.0/en/slow-query-log.html)
 - [Chapter 6 Security](https://dev.mysql.com/doc/refman/8.0/en/security.html)
 - [Chapter 15 The InnoDB Storage Engine](https://dev.mysql.com/doc/refman/8.0/en/innodb-storage-engine.html)
   - [15.14 InnoDB Startup Options and System Variables](https://dev.mysql.com/doc/refman/8.0/en/innodb-parameters.html)
@@ -44,5 +46,24 @@ SET @@transaction_isolation = 'READ-COMMITTED'; # set the next-transaction isola
 # Global Scope
 SET GLOBAL transaction_isolation = 'READ-COMMITTED';
 ```
+
+# 慢查询日志
+1. 查询是否开启慢查询日志：
+``` sql
+show variables like '%slow_query_log%';
+```
+2. 开启慢查询日志：
+``` sql
+set global slow_query_log = 'ON';
+```
+3. 查看慢查询日志文件路径：
+``` sql
+show variables like '%slow_query_log_file%';
+```
+4. 设置慢查询阈值：
+``` sql
+set long_query_time=0;
+```
+
 # 工具
 1. InnoDB 数据结构可视化：https://github.com/jeremycole/innodb_diagrams
