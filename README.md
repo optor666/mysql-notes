@@ -48,6 +48,7 @@ SET GLOBAL transaction_isolation = 'READ-COMMITTED';
 ```
 
 # 慢查询日志
+## 常见操作
 1. 查询是否开启慢查询日志：
 ``` sql
 show variables like '%slow_query_log%';
