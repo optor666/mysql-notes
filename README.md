@@ -2,8 +2,12 @@
 1. MySQL Document: https://dev.mysql.com/doc/
 2. MySQL Reference Manual: https://dev.mysql.com/doc/refman/8.0/en/
 3. MySQL Tutorial: https://dev.mysql.com/doc/refman/8.0/en/tutorial.html
+4. MySQL Source Code Document: https://dev.mysql.com/doc/dev/mysql-server/latest/
 
 # 文档导航
+- [Chapter 4 MySQL Programs](https://dev.mysql.com/doc/refman/8.0/en/programs.html)
+  - [4.5 Client Programs](https://dev.mysql.com/doc/refman/8.0/en/programs-client.html)
+    - [4.5.4 mysqldump — A Database Backup Program](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html)
 - [Chapter 5 MySQL Server Administration](https://dev.mysql.com/doc/refman/8.0/en/server-administration.html)
   - [5.1 The MySQL Server](https://dev.mysql.com/doc/refman/8.0/en/mysqld-server.html)
     - [5.1.8 Server System Variables](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html)
@@ -17,10 +21,18 @@
     - [13.1.2 ALTER DATABASE Statemen](https://dev.mysql.com/doc/refman/8.0/en/alter-database.html)
     - [13.1.9 ALTER TABLE Statement](https://dev.mysql.com/doc/refman/8.0/en/alter-table.html)
 - [Chapter 15 The InnoDB Storage Engine](https://dev.mysql.com/doc/refman/8.0/en/innodb-storage-engine.html)
+  - [15.6 InnoDB On-Disk Structures](https://dev.mysql.com/doc/refman/8.0/en/innodb-on-disk-structures.html)
+    - [15.6.2 Indexes](https://dev.mysql.com/doc/refman/8.0/en/innodb-indexes.html)
+      - [15.6.2.2 The Physical Structure of an InnoDB Index](https://dev.mysql.com/doc/refman/8.0/en/innodb-physical-structure.html)
   - [15.11 InnoDB Disk I/O and File Space Management](https://dev.mysql.com/doc/refman/8.0/en/innodb-disk-management.html)
     - [15.11.1 InnoDB Disk I/O](https://dev.mysql.com/doc/refman/8.0/en/innodb-disk-io.html)
     - [15.11.4 Defragmenting a Table](https://dev.mysql.com/doc/refman/8.0/en/innodb-file-defragmenting.html)
+  - [15.12 InnoDB and Online DDL](https://dev.mysql.com/doc/refman/8.0/en/innodb-online-ddl.html)
   - [15.14 InnoDB Startup Options and System Variables](https://dev.mysql.com/doc/refman/8.0/en/innodb-parameters.html)
+- [Chapter 16 Alternative Storage Engines](https://dev.mysql.com/doc/refman/8.0/en/storage-engines.html)
+  - [16.1 Setting the Storage Engine](https://dev.mysql.com/doc/refman/8.0/en/storage-engine-setting.html)
+  - [16.2 The MyISAM Storage Engine](https://dev.mysql.com/doc/refman/8.0/en/myisam-storage-engine.html)
+  - [16.3 The MEMORY Storage Engine](https://dev.mysql.com/doc/refman/8.0/en/memory-storage-engine.html)
  
 # 事务
 ## 文档
