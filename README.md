@@ -13,6 +13,7 @@
     - [5.1.8 Server System Variables](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html)
   - [5.2 The MySQL Data Directory](https://dev.mysql.com/doc/refman/8.0/en/data-directory.html)
   - [5.4 MySQL Server Logs](https://dev.mysql.com/doc/refman/8.0/en/server-logs.html)
+    - [5.4.3 The General Query Log](https://dev.mysql.com/doc/refman/8.0/en/query-log.html)
     - [5.4.5 The Slow Query Log](https://dev.mysql.com/doc/refman/8.0/en/slow-query-log.html)
 - [Chapter 6 Security](https://dev.mysql.com/doc/refman/8.0/en/security.html)
 - [Chapter 13 SQL Statements](https://dev.mysql.com/doc/refman/8.0/en/sql-statements.html)
@@ -22,6 +23,7 @@
     - [13.1.9 ALTER TABLE Statement](https://dev.mysql.com/doc/refman/8.0/en/alter-table.html)
   - [13.7 Database Administration Statements](https://dev.mysql.com/doc/refman/8.0/en/sql-server-administration-statements.html)
     - [13.7.1 Account Management Statements](https://dev.mysql.com/doc/refman/8.0/en/account-management-statements.html)
+      - [13.7.1.3 CREATE USER Statement](https://dev.mysql.com/doc/refman/8.0/en/create-user.html)
 - [Chapter 15 The InnoDB Storage Engine](https://dev.mysql.com/doc/refman/8.0/en/innodb-storage-engine.html)
   - [15.6 InnoDB On-Disk Structures](https://dev.mysql.com/doc/refman/8.0/en/innodb-on-disk-structures.html)
     - [15.6.2 Indexes](https://dev.mysql.com/doc/refman/8.0/en/innodb-indexes.html)
@@ -68,6 +70,13 @@ SET transaction_isolation = 'READ-COMMITTED';
 SET @@transaction_isolation = 'READ-COMMITTED'; # set the next-transaction isolation level
 # Global Scope
 SET GLOBAL transaction_isolation = 'READ-COMMITTED';
+```
+
+# MySQL 日志
+## 常见操作
+1. 查询是否开启 MySQL 日志：
+``` sql
+show variables like 'general%';
 ```
 
 # 慢查询日志
