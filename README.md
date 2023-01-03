@@ -14,6 +14,7 @@
   - [5.2 The MySQL Data Directory](https://dev.mysql.com/doc/refman/8.0/en/data-directory.html)
   - [5.4 MySQL Server Logs](https://dev.mysql.com/doc/refman/8.0/en/server-logs.html)
     - [5.4.3 The General Query Log](https://dev.mysql.com/doc/refman/8.0/en/query-log.html)
+    - [5.4.4 The Binary Log](https://dev.mysql.com/doc/refman/8.0/en/binary-log.html)
     - [5.4.5 The Slow Query Log](https://dev.mysql.com/doc/refman/8.0/en/slow-query-log.html)
 - [Chapter 6 Security](https://dev.mysql.com/doc/refman/8.0/en/security.html)
   - [6.2 Access Control and Account Management](https://dev.mysql.com/doc/refman/8.0/en/access-control.html)
