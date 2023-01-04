@@ -32,6 +32,9 @@
     - [13.7.1 Account Management Statements](https://dev.mysql.com/doc/refman/8.0/en/account-management-statements.html)
       - [13.7.1.3 CREATE USER Statement](https://dev.mysql.com/doc/refman/8.0/en/create-user.html)
       - [13.7.1.5 DROP USER Statement](https://dev.mysql.com/doc/refman/8.0/en/drop-user.html)
+
+    - [13.7.7 SHOW Statements](https://dev.mysql.com/doc/refman/8.0/en/show.html)
+      - [13.7.7.42 SHOW WARNINGS Statement](https://dev.mysql.com/doc/refman/8.0/en/show-warnings.html)
 - [Chapter 15 The InnoDB Storage Engine](https://dev.mysql.com/doc/refman/8.0/en/innodb-storage-engine.html)
   - [15.6 InnoDB On-Disk Structures](https://dev.mysql.com/doc/refman/8.0/en/innodb-on-disk-structures.html)
     - [15.6.2 Indexes](https://dev.mysql.com/doc/refman/8.0/en/innodb-indexes.html)
